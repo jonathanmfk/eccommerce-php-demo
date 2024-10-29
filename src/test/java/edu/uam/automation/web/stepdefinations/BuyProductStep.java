@@ -18,7 +18,7 @@ public class BuyProductStep {
         String productName = "Amazfit GTS 3 Smart Watch for Android iPhone";
 
         actor.attemptsTo(
-                Login.with("cesar.agudelo.h@gmail.com","123456"),
+                Login.with("liliana.rojasg@autonoma.edu.co","01234567"),
                 SearchProduct.by(productName),
                 PayProduct.type("Bank Deposit", productName)
 
